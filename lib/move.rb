@@ -16,7 +16,7 @@ end
 
 board = [" ", " ", " ", " ", " ", " "," ", " ", " "]
 
-def move(array, index, character = "X")
+def update_array_at_with(array, index, character = "X")
   array[index] = character
 end
 
